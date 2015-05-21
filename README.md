@@ -1,6 +1,8 @@
 # Ansible Role: PHP Extensions
 
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-novuso.php--ext-000000.svg)](https://galaxy.ansible.com/list#/roles/3860)
 [![MIT License](http://img.shields.io/badge/license-MIT-003399.svg)](http://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/novuso/ansible-role-php-ext.svg)](https://travis-ci.org/novuso/ansible-role-php-ext)
 
 An Ansible role that manages common PHP extensions on Ubuntu 14.04
 
