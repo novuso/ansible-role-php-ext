@@ -1,0 +1,21 @@
+---
+# php_ext_ppa_repo
+# - repo: "ondrej/php5"                          #required
+#   state: present                               #default
+#   update_cache: yes                            #default
+#   validate_certs: yes                          #default
+php_ext_ppa_repo:
+- repo: "ondrej/php5-5.6"
+# php_ext_packages
+# - name: "php5-curl"                            #required
+#   state: present                               #default
+php_ext_packages:
+- name: "php5-common"
+- name: "php5-curl"
+- name: "php5-intl"
+- name: "php5-json"
+- name: "php5-mcrypt"
+- name: "php5-mysql"
+- name: "php5-readline"
+- name: "php5-sqlite"
+- name: "php5-xdebug"
